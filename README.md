@@ -1,1 +1,7 @@
-# Hi
+
+##Student Management System
+
+
+
+
+

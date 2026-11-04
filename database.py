@@ -1,12 +1,9 @@
 import sqlite3
 
-
 DATABASE_NAME = "data/students.db"
-
 
 def connect_db():
     return sqlite3.connect(DATABASE_NAME)
-
 
 def create_tables():
     connection = connect_db()
@@ -73,3 +70,4 @@ def search_student(student_id):
     connection.close()
 
     return student
+

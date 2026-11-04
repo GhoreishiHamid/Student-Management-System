@@ -1,9 +1,2 @@
 
 ## Student Management System
-
-
-
-
-
-
-##

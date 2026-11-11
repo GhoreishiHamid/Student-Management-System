@@ -1,7 +1,6 @@
 from database import create_tables, add_student, get_students, search_student
 from student import Student
 
-
 def main():
     create_tables()
 
@@ -87,6 +86,6 @@ def main():
         else:
             print("Invalid choice. Please try again.")
 
-
 if __name__ == "__main__":
     main()
+

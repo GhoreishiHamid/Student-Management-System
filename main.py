@@ -1,9 +1,7 @@
 from database import create_tables, add_student, get_students, search_student
 from student import Student
-
 def main():
     create_tables()
-
     while True:
         print()
         print("Student Management System")
@@ -72,7 +70,6 @@ def main():
             else:
                 print()
                 print("Student not found.")
-
         elif choice == "4":
             print("Update Student selected.")
 
@@ -85,7 +82,6 @@ def main():
 
         else:
             print("Invalid choice. Please try again.")
-
 if __name__ == "__main__":
     main()
 
